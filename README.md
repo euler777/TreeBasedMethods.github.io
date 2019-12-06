@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# Tree-Based Methods
 
-You can use the [editor on GitHub](https://github.com/euler777/TreeBasedMethods.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tree-based methods partition the feature space into a set of rectangles, and then fit a simple model (like a constant) in each one. They are conceptually simple yet powerful. We describe a popular method for tree- based regression and classification called CART (Classification And Regression Trees, see Breiman et al., 1984). Compared to ordinary least squares, tree- based methods are less accurate, less consistent, but the algorithm runs much faster especially when the number of predictors is large. I mainly refer to the textbook “The Elements of Statistical Learning” by Hastie et al. for this chapter.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Main goal: To understand the motivation and idea of tree-based methods. To know using tree- based method to model quantitative data (regression tree) and classification problems (classification tree).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/euler777/TreeBasedMethods.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
